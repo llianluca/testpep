@@ -29,3 +29,7 @@ spring:
           uri: lb://justificativo-service
           predicates:
             - Path=/justificativo/**
+        - id: planilla-service
+          uri: lb://planilla-service
+          predicates:
+            - Path=/planilla/**
