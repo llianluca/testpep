@@ -33,3 +33,7 @@ spring:
           uri: lb://planilla-service
           predicates:
             - Path=/planilla/**
+        - id: reporte-service
+          uri: lb://reporte-service
+          predicates:
+            - Path=/reporte/**
